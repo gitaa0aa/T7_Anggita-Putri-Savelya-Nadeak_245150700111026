@@ -7,8 +7,8 @@ Program ini ditulis dalam bahasa **Java** dan bertujuan untuk memvalidasi **NIM 
 ## Tujuan Program
 
 1. Memastikan NIM yang dimasukkan terdiri dari **15 digit**.
-2. Dua digit pertama dari NIM harus **"24"** (misalnya tahun angkatan 2024).
-3. Jika ada kesalahan, program akan memberikan **pesan error** yang sesuai.
+2. Dua digit pertama dari NIM harus **"24"** (NIM mahasiswa angkatan 2024).
+3. Jika tidak sesuai, program akan memberikan **pesan error** yang sesuai.
 
 ---
 
