@@ -1,6 +1,6 @@
 # NIMChecker - Validasi NIM Mahasiswa (Angkatan 2024) dengan Exception Handling
 
-Program ini ditulis dalam bahasa **Java** dan bertujuan untuk memvalidasi **NIM (Nomor Induk Mahasiswa)** angkatan 2024 untuk login di web ospek kampus sebagai mahasiswa baru. Program juga mendemonstrasikan penggunaan **Exception Handling**, termasuk `try-catch`, `throw`, dan `throws`.
+Program ini ditulis dalam bahasa **Java** dan bertujuan untuk memvalidasi **NIM (Nomor Induk Mahasiswa)** angkatan 2024 untuk login di web ospek kampus sebagai mahasiswa baru. Program juga mendemonstrasikan penggunaan **Exception Handling**, termasuk `try-catch`, `throw`, dan `throws` dan **Loop** sampai NIM yang dimasukkan sesuai dengan format.
 
 ---
 
@@ -8,21 +8,21 @@ Program ini ditulis dalam bahasa **Java** dan bertujuan untuk memvalidasi **NIM 
 
 1. Memastikan NIM yang dimasukkan terdiri dari **15 digit**.
 2. Dua digit pertama dari NIM harus **"24"** (NIM mahasiswa angkatan 2024).
-3. Jika tidak sesuai, program akan memberikan **pesan error** yang sesuai.
+3. Program akan terus meminta input ulang hingga NIM sesuai.
+4. Jika NIM tidak sesuai, program akan memberikan **pesan error** yang sesuai.
 
 ---
 
-## Fitur dan Komponen
+## Fitur Program
 
-- **Custom Exception**: `InvalidNIMException`
-  - Dibuat khusus untuk menangani kasus NIM tidak sesuai format.
-  
-- **Metode Validasi**:
-  - `validateNIM(String nim)`:
-    - Mengecek panjang string harus 15.
-    - Mengecek dua digit awal menggunakan `.startsWith("24")`.
+### Validasi NIM
+- Harus 15 karakter.
+- Harus diawali "24".
 
-- **Penggunaan Try-Catch**:
-  - Menangani kesalahan input dan memberikan pesan kesalahan yang jelas.
+### Perulangan
+- Program terus mengulang sampai pengguna memasukkan NIM yang sesuai.
+
+### Exception Handling
+- Menggunakan `try-catch` untuk menangani kesalahan input dengan memberikan pesan kesalahan yang jelas.
 
 ---
