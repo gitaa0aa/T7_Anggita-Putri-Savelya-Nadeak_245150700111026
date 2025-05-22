@@ -1,6 +1,6 @@
 # NIMChecker - Validasi NIM Mahasiswa (Angkatan 2024) dengan Exception Handling
 
-Program ini ditulis dalam bahasa **Java** dan bertujuan untuk memvalidasi **NIM (Nomor Induk Mahasiswa)** angkatan 2024 untuk login di web ospek kampus sebagai mahasiswa baru. Program juga mendemonstrasikan penggunaan **Exception Handling**, termasuk `try-catch`, `throw`, dan `throws`, serta **Loop** sampai NIM yang dimasukkan sesuai dengan format.
+Program ini ditulis dalam bahasa **Java** dan bertujuan untuk memvalidasi **NIM (Nomor Induk Mahasiswa)** angkatan 2024 untuk login di web ospek Universitas Brawijaya sebagai mahasiswa baru. Program juga mendemonstrasikan penggunaan **Exception Handling**, termasuk `try-catch`, `throw`, dan `throws`, serta **Loop** sampai NIM yang dimasukkan sesuai dengan format.
 
 ---
 
@@ -16,8 +16,8 @@ Program ini ditulis dalam bahasa **Java** dan bertujuan untuk memvalidasi **NIM 
 ## Fitur Program
 
 ### Validasi NIM
-- Harus 15 karakter.
-- Harus diawali "24".
+- Harus 15 karakter (NIM Mahasiswa UB)
+- Harus diawali "24" (NIM Angkatan 2024)
 
 ### Perulangan
 - Program terus mengulang sampai pengguna memasukkan NIM yang sesuai.
