@@ -19,7 +19,7 @@ Program ini ditulis dalam bahasa **Java** dan bertujuan untuk memvalidasi **NIM 
 - Harus 15 karakter.
 - Harus diawali "24".
 
-### Perulangan
+### Loop
 - Program terus mengulang sampai pengguna memasukkan NIM yang sesuai.
 
 ### Exception Handling
